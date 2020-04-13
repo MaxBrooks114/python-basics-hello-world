@@ -1,6 +1,15 @@
 parrot = "Norwegian Blue"
 
-print(parrot)
-print(parrot[3])
-print(parrot + "\n" + parrot[3] + "\n" + parrot[4] + "\n" + "\n" + parrot[3] + "\n" + parrot[6] + "\n" +parrot[8])
-print(parrot + "\n" + parrot[-11] + "\n" + parrot[-1] + "\n" + "\n" + parrot[-11] + "\n" + parrot[-8] + "\n" +parrot[-14])
+print(parrot[0:6])
+print(parrot[3:5])
+print(parrot[0:9])
+print(parrot[:9])
+print(parrot[0:])
+print(parrot[10:])
+
+print(parrot[-14:-8])
+print(parrot[-11:-9])
+print(parrot[-14:-5])
+print(parrot[:-5])
+print(parrot[-14:])
+print(parrot[-4:])
